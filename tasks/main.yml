@@ -1,0 +1,7 @@
+---
+# tasks file for apigee-opdk-devportal-drupal-updates
+- name: Update Drupal Update module
+  shell: drush pm-info update
+  args:
+    chdir: "{{ apigee_installation_home }}/apigee-drupal/wwwroot"
+
