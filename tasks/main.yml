@@ -3,5 +3,5 @@
 - name: Update Drupal Update module
   shell: drush pm-info update
   args:
-    chdir: "{{ apigee_home }}/apigee-drupal/wwwroot"
+    chdir: "{{ apigee_home }}/apigee-drupal"
 
